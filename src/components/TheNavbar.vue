@@ -241,12 +241,17 @@ onUnmounted(() => {
     left: 0;
     right: 0;
     bottom: 0;
+    width: 100%;
+    height: 100vh;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     gap: 24px;
     background: var(--bg-primary);
     opacity: 0;
     visibility: hidden;
+    transform: none;
+    z-index: 9;
     transition: all var(--transition-normal);
   }
 
